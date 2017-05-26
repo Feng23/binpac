@@ -156,6 +156,7 @@ int compile(const char* filename)
 		out_h.println("#ifndef %s_h", filename_id);
 		out_h.println("#define %s_h", filename_id);
 		out_h.println("");
+        // TODO: change to element vector
 		out_h.println("#include <vector>");
 		out_h.println("");
 		out_h.println("#include \"binpac.h\"");
